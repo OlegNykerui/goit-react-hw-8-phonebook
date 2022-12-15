@@ -33,7 +33,7 @@ export const RegisterForm = () => {
 
   return (
     <>
-      {error && <h2>An error occurred: {error.message}</h2>}
+      {error && <h2> Введить дані коректно </h2>}
       <form className={css.form} onSubmit={handleSubmit} autoComplete="off">
         <label className={css.label}>
           Ім'я користувачая
