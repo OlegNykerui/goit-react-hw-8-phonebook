@@ -1,0 +1,26 @@
+.form {
+  width: 420px;
+  margin: auto;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.input {
+  margin-top: 10px;
+  height: 20px;
+  border: 2px solid tomato;
+  border-radius: 11px;
+}
+
+.button {
+  margin-left: 150px;
+  height: 30px;
+  padding: 7px;
+  background-color: #ffa67075;
+  border: 1px dashed brown;
+  border-radius: 7px;
+}
