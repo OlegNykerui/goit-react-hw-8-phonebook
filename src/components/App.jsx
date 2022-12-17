@@ -4,8 +4,8 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { refreshUser } from '../redux/auth/operations';
 import { useAuth } from '../hooks/useAuth';
-import { PrivateRoute } from '../Routes/PrivateRoute';
-import { PublicRoute } from '../Routes/PublicRoute';
+import { PrivateRoute } from '../routes/PrivateRoute';
+import { PublicRoute } from '../routes/PublicRoute';
 
 const Layout = lazy(() => import('./Layout/Layout'));
 const HomePage = lazy(() => import('../pages/HomePage/HomePage'));
